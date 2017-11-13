@@ -5,6 +5,7 @@ import './App.css';
 import Test from "../Test/Test";
 import Comment from "../Comment/Comment";
 import Clock from "../Clock/Clock";
+import Toggle from "../Toggle/Toggle";
 
 class App extends React.Component {
     render() {
@@ -38,6 +39,8 @@ class App extends React.Component {
                 />
 
                 <Clock/>
+
+                <Toggle/>
 
             </div>
         );
