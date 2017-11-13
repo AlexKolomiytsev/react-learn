@@ -6,6 +6,7 @@ import Test from "../Test/Test";
 import Comment from "../Comment/Comment";
 import Clock from "../Clock/Clock";
 import Toggle from "../Toggle/Toggle";
+import LoginControl from "../LoginControl/LoginControl"
 
 class App extends React.Component {
     render() {
@@ -41,6 +42,8 @@ class App extends React.Component {
                 <Clock/>
 
                 <Toggle/>
+
+                <LoginControl/>
 
             </div>
         );
