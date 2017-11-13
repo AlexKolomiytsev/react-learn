@@ -7,6 +7,7 @@ import Comment from "../Comment/Comment";
 import Clock from "../Clock/Clock";
 import Toggle from "../Toggle/Toggle";
 import LoginControl from "../LoginControl/LoginControl"
+import List from "../List/List";
 
 class App extends React.Component {
     render() {
@@ -27,6 +28,8 @@ class App extends React.Component {
 
         const element = <h1>Hello, {formatName(user)}!</h1>;
 
+        const someList = [1, 2, 3, 4, 5];
+
         return (
             <div className="App">
                 {element}
@@ -44,6 +47,8 @@ class App extends React.Component {
                 <Toggle/>
 
                 <LoginControl/>
+
+                <List list={someList}/>
 
             </div>
         );
