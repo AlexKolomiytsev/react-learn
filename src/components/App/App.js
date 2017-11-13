@@ -4,6 +4,7 @@ import './App.css';
 
 import Test from "../Test/Test";
 import Comment from "../Comment/Comment";
+import Clock from "../Clock/Clock";
 
 class App extends React.Component {
     render() {
@@ -27,7 +28,7 @@ class App extends React.Component {
         return (
             <div className="App">
                 {element}
-                Some prop bind: {this.props.type}
+
                 <Test type='testProp'/>
 
                 <Comment
@@ -35,6 +36,9 @@ class App extends React.Component {
                     text={someComment.text}
                     date={someComment.date}
                 />
+
+                <Clock/>
+
             </div>
         );
     }
