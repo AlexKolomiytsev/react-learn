@@ -8,6 +8,7 @@ import Clock from "../Clock/Clock";
 import Toggle from "../Toggle/Toggle";
 import LoginControl from "../LoginControl/LoginControl"
 import List from "../List/List";
+import NameForm from "../NameForm/NameForm";
 
 class App extends React.Component {
     render() {
@@ -49,6 +50,8 @@ class App extends React.Component {
                 <LoginControl/>
 
                 <List list={someList}/>
+
+                <NameForm/>
 
             </div>
         );
