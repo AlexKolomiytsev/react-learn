@@ -11,7 +11,15 @@ class App extends React.Component {
 
         const user = {
             firstName: 'Harper',
-            lastName: 'Perez'
+            lastName: 'Perez',
+            name: 'Harper Perez',
+            avatarUrl: 'http://digitalspyuk.cdnds.net/16/03/768x432/gallery-1453464632-movies-avatar-still-01.jpg'
+        };
+
+        const someComment = {
+            author: user,
+            text: 'lorem ipsum dolor sir amet',
+            date: new Date().toLocaleDateString()
         };
 
         const element = <h1>Hello, {formatName(user)}!</h1>;
@@ -21,7 +29,12 @@ class App extends React.Component {
                 {element}
                 Some prop bind: {this.props.type}
                 <Test type='testProp'/>
-                <Comment/>
+
+                <Comment
+                    author={someComment.author}
+                    text={someComment.text}
+                    date={someComment.date}
+                />
             </div>
         );
     }

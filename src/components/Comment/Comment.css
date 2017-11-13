@@ -1,3 +1,23 @@
 .Comment {
+    border: 1px solid black;
+    padding: 10px;
+}
 
+.UserInfo {
+    display: inline-block;
+}
+
+.Comment-text {
+    display: inline-block;
+    padding: 0 0 25px 25px;
+}
+
+.Avatar {
+    display: inline-block;
+
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
 }
