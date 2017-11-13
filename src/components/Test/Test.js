@@ -5,10 +5,14 @@ class Test extends React.Component {
 
     render() {
         return (
-            <h1>
-                Test
-            </h1>
+            <div className="Test">
+                <h2>Test</h2>
+                <div>
+                    Some prop bindings: {this.props.type}
+                </div>
+            </div>
         );
+
     }
 }
 

@@ -2,6 +2,7 @@ import React from 'react';
 import './MainContainer.css';
 
 import Header from '../../components/Header/Header'
+import App from '../../components/App/App';
 
 class MainContainer extends React.Component {
 
@@ -9,9 +10,7 @@ class MainContainer extends React.Component {
         return (
             <div>
                 <Header/>
-                <div>
-                    { this.props.children }
-                </div>
+                <App />
             </div>
         );
     }
