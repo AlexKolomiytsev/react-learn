@@ -6,9 +6,6 @@ const scaleNames = {
 };
 
 class TemperatureInput extends React.Component {
-    constructor(props) {
-        super(props);
-    }
 
     handleChange = (e) => {
         //this.setState({temperature: e.target.value})

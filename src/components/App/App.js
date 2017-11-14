@@ -11,6 +11,7 @@ import List from "../List/List";
 import NameForm from "../NameForm/NameForm";
 import Reservation from "../Reservation/Reservation";
 import Calculator from '../Boiling/Calculator';
+import SignUpDialog from '../SignUpDialog/SignUpDialog';
 
 class App extends React.Component {
     render() {
@@ -37,6 +38,8 @@ class App extends React.Component {
             <div className="App">
                 {element}
 
+                <SignUpDialog/>
+
                 <Calculator/>
 
                 <Test type='testProp'/>
@@ -58,6 +61,8 @@ class App extends React.Component {
                 <NameForm/>
 
                 <Reservation/>
+
+
             </div>
         );
     }

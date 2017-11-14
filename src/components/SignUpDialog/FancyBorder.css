@@ -1,0 +1,11 @@
+.FancyBorder {
+    border: 2px solid #2b81af;
+    max-width: 400px;
+    width: 70%;
+    margin: 35px auto;
+    padding: 15px;
+}
+
+.FancyBorder-blue {
+    color: #2b81af;
+}
