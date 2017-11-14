@@ -1,0 +1,25 @@
+.TestSearchContainer {
+    padding: 25px;
+    margin: 25px;
+    border: 2px solid burlywood;
+}
+
+.FilterableProductTable {
+    padding: 25px;
+    border: 2px solid rosybrown;
+    width: 300px;
+    text-align: left;
+    margin: auto;
+}
+
+.SearchBar {
+    padding-bottom: 15px;
+}
+
+.ProductCategoryRow {
+    font-weight: 700;
+}
+
+.ProductRow {
+    font-weight: 200;
+}

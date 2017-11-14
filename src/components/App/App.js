@@ -2,16 +2,17 @@ import React from 'react';
 
 import './App.css';
 
-import Test from "../Test/Test";
-import Comment from "../Comment/Comment";
-import Clock from "../Clock/Clock";
-import Toggle from "../Toggle/Toggle";
-import LoginControl from "../LoginControl/LoginControl"
-import List from "../List/List";
-import NameForm from "../NameForm/NameForm";
-import Reservation from "../Reservation/Reservation";
-import Calculator from '../Boiling/Calculator';
-import SignUpDialog from '../SignUpDialog/SignUpDialog';
+import Test                         from "../Test/Test";
+import Comment                      from "../Comment/Comment";
+import Clock                        from "../Clock/Clock";
+import Toggle                       from "../Toggle/Toggle";
+import LoginControl                 from "../LoginControl/LoginControl"
+import List                         from "../List/List";
+import NameForm                     from "../NameForm/NameForm";
+import Reservation                  from "../Reservation/Reservation";
+import Calculator                   from '../Boiling/Calculator';
+import SignUpDialog                 from '../SignUpDialog/SignUpDialog';
+import TestSearchContainer          from '../Search/TestSearchContainer/TestSearchContainer';
 
 class App extends React.Component {
     render() {
@@ -37,6 +38,8 @@ class App extends React.Component {
         return (
             <div className="App">
                 {element}
+
+                <TestSearchContainer/>
 
                 <SignUpDialog/>
 
