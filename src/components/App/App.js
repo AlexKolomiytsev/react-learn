@@ -10,6 +10,7 @@ import LoginControl from "../LoginControl/LoginControl"
 import List from "../List/List";
 import NameForm from "../NameForm/NameForm";
 import Reservation from "../Reservation/Reservation";
+import Calculator from '../Boiling/Calculator';
 
 class App extends React.Component {
     render() {
@@ -36,6 +37,8 @@ class App extends React.Component {
             <div className="App">
                 {element}
 
+                <Calculator/>
+
                 <Test type='testProp'/>
 
                 <Comment
@@ -55,7 +58,6 @@ class App extends React.Component {
                 <NameForm/>
 
                 <Reservation/>
-
             </div>
         );
     }
